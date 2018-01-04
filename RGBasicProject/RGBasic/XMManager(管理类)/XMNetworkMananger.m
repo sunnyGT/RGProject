@@ -8,6 +8,7 @@
 
 #import "XMNetworkMananger.h"
 #import "NSString+XMStringTool.h"
+#import "XMMacro.h"
 
 @interface XMNetworkMananger ()
 

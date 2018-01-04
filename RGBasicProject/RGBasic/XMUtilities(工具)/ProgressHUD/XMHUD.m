@@ -11,8 +11,8 @@
 #import "XMMacro.h"
 @implementation XMHUD
 
-#define HUD_TOP_ORIGINY (115 * Screen_ScaleH - Screen_CenterY)
-#define HUD_BOTTOM_ORIGINY (Screen_CenterY - 100 *Screen_ScaleH)
+#define HUD_TOP_ORIGINY (115.f - CGRectGetMidY([[UIScreen mainScreen] bounds]))
+#define HUD_BOTTOM_ORIGINY (CGRectGetMidY([[UIScreen mainScreen] bounds]) - 100.f)
 
 + (void)showHUDToView:(UIView *)view{
     [MBProgressHUD hideHUDForView:view animated:NO];

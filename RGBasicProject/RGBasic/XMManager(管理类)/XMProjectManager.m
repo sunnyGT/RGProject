@@ -7,7 +7,9 @@
 //
 
 #import "XMProjectManager.h"
-
+#import <UIKit/UIKit.h>
+#import "XMNavigationController.h"
+#import "XMAppDelegate.h"
 @implementation XMProjectManager
 
 + (XMProjectManager *)manager{
@@ -22,7 +24,7 @@
 
 - (UIViewController *)topViewController{
     
-    UIViewController * selectVC = M.appDelegate.rootViewController.selectedViewController;
+    UIViewController * selectVC = self.appDelegate.rootViewController.selectedViewController;
     if ([selectVC isKindOfClass:[UINavigationController class]]) {
         return ((XMNavigationController *)selectVC).topViewController;
     }

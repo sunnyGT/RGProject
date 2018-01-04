@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "XMMacro.h"
+#import <UIKit/UIKit.h>
 @class MBProgressHUD;
 @interface XMHUD : NSObject
 

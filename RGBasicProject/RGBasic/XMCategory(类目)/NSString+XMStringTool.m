@@ -12,6 +12,7 @@
 #import "Encryption.h"
 #import "MF_Base64Additions.h"
 #import "XMMacro.h"
+#import <UIKit/UIKit.h>
 @implementation NSString (XMStringTool)
 
 
