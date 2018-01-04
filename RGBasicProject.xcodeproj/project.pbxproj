@@ -190,6 +190,7 @@
 		0020DB511FFE0D2A0071D400 /* RGBasicProject */ = {
 			isa = PBXGroup;
 			children = (
+				0020DBD11FFE1CEE0071D400 /* XMPrefixHeader.pch */,
 				0020DB721FFE1CEE0071D400 /* RGBasic */,
 				0020DB521FFE0D2A0071D400 /* AppDelegate.h */,
 				0020DB531FFE0D2A0071D400 /* AppDelegate.m */,
@@ -223,7 +224,6 @@
 				0020DBC91FFE1CEE0071D400 /* XMDelegate */,
 				0020DBCB1FFE1CEE0071D400 /* XMMacro.h */,
 				0020DBCC1FFE1CEE0071D400 /* XMManager(管理类) */,
-				0020DBD11FFE1CEE0071D400 /* XMPrefixHeader.pch */,
 				0020DBD21FFE1CEE0071D400 /* XMUtilities(工具) */,
 			);
 			path = RGBasic;
@@ -694,7 +694,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YY8765RCWW;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/RGBasicProject/RGBasic/XMPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RGBasicProject/XMPrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Base64\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
 				INFOPLIST_FILE = RGBasicProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -712,7 +722,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YY8765RCWW;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/RGBasicProject/RGBasic/XMPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RGBasicProject/XMPrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Base64\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Mantle\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
 				INFOPLIST_FILE = RGBasicProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
