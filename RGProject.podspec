@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RGProject"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "A basic project."
   s.homepage     = "https://github.com/sunnyGT/RGProject"
 

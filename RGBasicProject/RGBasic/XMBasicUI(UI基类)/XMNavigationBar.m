@@ -32,8 +32,6 @@
 #pragma mark - configure custom titleTextAttributes
 - (void)defaultAttributes{
 
-    self.barTintColor = ThemeColor;
-    self.translucent = YES;
 }
 
 
