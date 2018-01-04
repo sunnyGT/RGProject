@@ -8,7 +8,8 @@
 
 #import "XMFormViewController.h"
 #import "UITextField+WordLimit.h"
-#import "Masonry.h"
+
+
 @protocol XMFormCellDelegate<NSObject>
 
 @end
@@ -32,10 +33,12 @@ static UIView *XMFormsFirstResponder(UIView *view)
 
 
 @implementation XMBasicTabelViewCell
+
 - (void)setupValueWithForm:(XMForm *)form{
     if (isNUllOrNil(form)) return;
     self.form = form;
 }
+
 - (void)configureFormAppearence{
     
 }

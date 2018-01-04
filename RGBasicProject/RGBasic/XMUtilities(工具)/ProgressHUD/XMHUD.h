@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "XMMacro.h"
 @class MBProgressHUD;
 @interface XMHUD : NSObject
 

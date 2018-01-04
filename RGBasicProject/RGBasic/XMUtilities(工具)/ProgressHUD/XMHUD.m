@@ -8,6 +8,7 @@
 
 #import "XMHUD.h"
 #import "MBProgressHUD.h"
+#import "XMMacro.h"
 @implementation XMHUD
 
 #define HUD_TOP_ORIGINY (115 * Screen_ScaleH - Screen_CenterY)
