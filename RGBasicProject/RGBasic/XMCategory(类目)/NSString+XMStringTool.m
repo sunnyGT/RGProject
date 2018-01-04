@@ -11,6 +11,7 @@
 #import "RSAEncryptor.h"
 #import "Encryption.h"
 #import "MF_Base64Additions.h"
+#import "XMMacro.h"
 @implementation NSString (XMStringTool)
 
 

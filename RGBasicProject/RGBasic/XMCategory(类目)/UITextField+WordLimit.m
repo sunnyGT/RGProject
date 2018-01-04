@@ -8,6 +8,7 @@
 
 #import "UITextField+WordLimit.h"
 #import <objc/runtime.h>
+#import "XMHUD.h"
 
 
 @implementation UITextField (WordLimit)
