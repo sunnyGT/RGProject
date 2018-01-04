@@ -10,9 +10,11 @@
 #import <objc/runtime.h>
 #import "UIImage+AHUIImage.h"
 
+
 @implementation UINavigationBar (XMNavigationTool)
 
-XM_DYNAMIC_PROPERTY_OBJECT(coverLayer, setCoverLayer, RETAIN, UIView *)
+
+//XM_DYNAMIC_PROPERTY_OBJECT(coverLayer, setCoverLayer, RETAIN, UIView *)
 
 - (void)xm_setBackgroundColor:(UIColor *)customColor{
     

@@ -10,6 +10,8 @@
 
 @interface UINavigationBar (XMNavigationTool)
 
+@property (nonatomic ,strong)UIView *coverLayer;
+
 - (void)xm_setBackgroundColor:(UIColor *)customColor;
 
 - (void)xm_setAlpha:(CGFloat)alpha;

@@ -8,12 +8,14 @@
 
 #import "UITableView+XMTableViewTool.h"
 #import <objc/runtime.h>
+#import <UIKit/UIKit.h>
 
 @implementation UITableView (XMTableViewTool)
 
 @dynamic placeHoldView;
 
-XM_DYNAMIC_PROPERTY_OBJECT(placeHoldView, setPlaceHoldView, RETAIN, UIView *);
+
+//XM_DYNAMIC_PROPERTY_OBJECT(placeHoldView, setPlaceHoldView, RETAIN, UIView *);
 
 //+ (void)load{
 //    static dispatch_once_t onceToken;
