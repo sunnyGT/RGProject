@@ -25,6 +25,9 @@
     #import "XMNavigationController.h"
     #import "XMViewController.h"
     #import "NSUserDefaults+XMSaveTool.h"
+    #import "UINavigationBar+XMNavigationTool.h"
+    #import "UITableViewCell+Tool.h"
+    #import "UITableView+XMTableViewTool.h"
 #endif
 
 #endif /* XMPrefixHeader_pch */
