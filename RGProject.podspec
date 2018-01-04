@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  =  "RGBasicProject/RGBasic/**/*"
+  s.source_files  =  "RGBasicProject/RGBasic/*.{h,m}", "RGBasicProject/RGBasic/**/*" , "RGBasicProject/RGBasic/XMUtilities(工具)/**/*"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
